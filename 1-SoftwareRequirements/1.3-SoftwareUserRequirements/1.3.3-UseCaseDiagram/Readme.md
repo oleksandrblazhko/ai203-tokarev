@@ -1,0 +1,1 @@
+![](https://github.com/oleksandrblazhko/ai203-tokarev/blob/ai203-tokarev_with_laboratory_work_2/1-SoftwareRequirements/1.3-SoftwareUserRequirements/1.3.3-UseCaseDiagram/PrecedenceDiagram.jpg)
