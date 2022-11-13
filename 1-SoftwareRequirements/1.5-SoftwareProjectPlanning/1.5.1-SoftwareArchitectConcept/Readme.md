@@ -1,0 +1,1 @@
+![](https://github.com/oleksandrblazhko/ai203-tokarev/blob/ai203-tokarev_with_laboratory_work_4/1-SoftwareRequirements/1.5-SoftwareProjectPlanning/1.5.1-SoftwareArchitectConcept/SoftwareArchitectConcept.jpg)
