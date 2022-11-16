@@ -1,0 +1,19 @@
+{
+	"user":{
+		"email": "walterwhite308",
+		"password": "07091958",
+		"username": "Heisenberg"
+	},
+	"paymentsystem":{
+		"name": "Google Pay"
+	},
+	"work":{
+		"name": "Saul Goodman 3D",
+		"type": "3D Model",
+		"description": "3D Model of Saul Goodman's face",
+		"price": 10
+	},
+	"section":{
+		"type": "3D Model"
+	}
+}

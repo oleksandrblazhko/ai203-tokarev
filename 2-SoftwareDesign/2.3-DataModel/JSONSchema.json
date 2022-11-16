@@ -1,0 +1,82 @@
+{
+	"description": "Опис предметної області ПП",
+	"type": "object",
+	"properties": {
+		"user": {
+			"description": "Користувач онлайн платформи",
+			"type": "object",
+			"properties":{
+				"email":{
+					"description": "Пошта-логін",
+					"type": "string"
+				},
+				"password":{
+					"description": "Зашифрований пароль",
+					"type": "string",
+				},
+				"username":{
+					"description": "Ім'я яке відображається на сайті",
+					"type": "string",
+				}
+			},
+			"required": [
+				"email",
+				"password",
+				"username"
+			]
+		},
+		"paymentsystem": {
+			"description": "Платіжна система",
+			"type": "object",
+			"properties":{
+				"name":{
+					"description": "Повна назва платіжної системи",
+					"type": "string"
+				},
+			},
+			"required": [
+				"name"
+			]
+		},
+		"work":{
+			"description": "Робота художника",
+			"type": "object",
+			"properties":{
+				"name":{
+					"description": "Повна назва роботи",
+					"type": "string"
+				},
+				"type":{
+					"description": "Який тип роботи",
+					"type": "string"
+				},
+				"description":{
+					"description": "Повний опис роботи",
+					"type": "string"
+				},
+				"price":{
+					"description": "Ціна у долларах",
+					"type": "integer"
+				},
+			},
+			"required": [
+				"name",
+				"type",
+				"price"
+			]
+		},
+		"section": {
+			"description": "Розділ на сайті",
+			"type": "object",
+			"properties":{
+				"type":{
+					"description": "Який тип робіт у розділі",
+					"type": "string"
+				},
+			},
+			"required": [
+				"type"
+			]
+		},
+	}
+}
