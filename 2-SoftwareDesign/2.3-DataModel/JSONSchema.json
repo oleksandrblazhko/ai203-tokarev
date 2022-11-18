@@ -56,7 +56,7 @@
 				},
 				"price":{
 					"description": "Ціна у долларах",
-					"type": "integer"
+					"type": "number"
 				},
 			},
 			"required": [
