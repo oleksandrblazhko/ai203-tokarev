@@ -1,0 +1,15 @@
+@startuml
+title Example of Activity Diagram 
+
+start
+:The user selects section on the website;
+:The user clicks on the work they likes;
+:The user selects payment system;
+:The user confirms payment;
+if (Was the payment successful?) then (Yes)
+  :Payment was successful!;
+else (No)
+  :Error occured!;
+endif
+stop
+@enduml
