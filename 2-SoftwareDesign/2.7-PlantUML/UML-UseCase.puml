@@ -17,3 +17,4 @@ rectangle Software {
 
  	(Провести оплату) -- Payment_service
 }
+@enduml
