@@ -1,0 +1,5 @@
+|Опис вхідних умов|Правильний/неправильний клас еквівалентності|Опис значень вхідних даних|
+|-|:-:|-|
+|1) рядок name не більше 80 символів<br>2) рядок type не більше 40 символів<br>3) рядок description не більше 200 символів<br>4) ціна не менше 0.05 долларів|Правильний|name = FontName font<br>type = font<br>description = This is the font with the name FontName and it is very cool<br>price = 2|
+|1) рядок name не більше 80 символів<br>2) рядок type не більше 40 символів<br>3) рядок description не більше 200 символів<br>4) ціна менше 0.05 долларів|Неправильний|name = PictureName<br>type = picture<br>description = This is the picture with the name PictureName and it is very cool<br>price = 0|
+|1) рядок name більше 80 символів<br>2) рядок type не більше 40 символів<br>3) рядок description не більше 200 символів<br>4) ціна не менше 0.05 долларів|Неправильний|name = AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>type = AAAAA<br>description = I am screaming in artwork's name<br>price = 10|
