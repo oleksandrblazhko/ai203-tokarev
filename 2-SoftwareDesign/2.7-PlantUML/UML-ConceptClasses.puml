@@ -1,0 +1,13 @@
+@startuml
+title Example of Classes Diagram 
+
+Class Payment_system
+Class User
+Class Work
+Class Section
+
+User -> Payment_system : use
+User -> Work : sale/buy
+User -> Section : search in
+Section --o Work  : contains
+@enduml

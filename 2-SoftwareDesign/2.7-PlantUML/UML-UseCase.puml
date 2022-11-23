@@ -1,0 +1,20 @@
+@startuml 
+title Usecase for Information system
+left to right direction
+skinparam packageStyle rect
+actor User
+actor User_artist
+actor User_client
+actor Payment_service
+rectangle Software {
+  	User_artist -- (Викласти роботу)
+  	User_client -- (Шукати роботу)
+	User <|-- User_artist
+	User <|-- User_client
+  
+ 	(Шукати роботу) ..> (Придбати роботу) : <<extend>>
+ 	(Провести оплату) ..> (Придбати роботу) : <<include>>
+
+ 	(Провести оплату) -- Payment_service
+}
+@enduml
