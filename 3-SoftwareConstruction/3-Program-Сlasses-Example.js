@@ -10,7 +10,6 @@ class Section {
 		this.type = type;
 	}
 }
-
 section_array = []
 
 class Work {
@@ -21,5 +20,4 @@ class Work {
 		this.price = price;
 	}
 }
-
 work_array = []
