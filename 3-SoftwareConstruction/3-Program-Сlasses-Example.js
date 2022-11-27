@@ -3,7 +3,7 @@ class Payment system {
 		this.name = name;
 	}
 }
-payment_array = []
+payment_system_array = []
 
 class Section {
 	constructor(type) {
