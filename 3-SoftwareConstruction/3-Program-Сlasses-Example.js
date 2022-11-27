@@ -3,6 +3,7 @@ class Payment system {
 		this.name = name;
 	}
 }
+payment_array = []
 
 class Section {
 	constructor(type) {
@@ -10,6 +11,7 @@ class Section {
 	}
 }
 
+section_array = []
 
 class Work {
 	constructor(name, type, description, price) {
@@ -19,3 +21,5 @@ class Work {
 		this.price = price;
 	}
 }
+
+work_array = []
