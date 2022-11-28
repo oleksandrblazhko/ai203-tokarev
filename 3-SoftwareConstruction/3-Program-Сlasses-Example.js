@@ -1,4 +1,4 @@
-class Payment system {
+class Payment_system {
 	constructor(name) {
 		this.name = name;
 	}
